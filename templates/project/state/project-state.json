@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "project": "",
+  "request": "",
+  "current_stage": 1,
+  "stages": [
+    {
+      "id": 1,
+      "status": "pending",
+      "human_gate": "pending",
+      "completed": ""
+    },
+    {
+      "id": 2,
+      "status": "pending",
+      "human_gate": "not_required",
+      "completed": ""
+    },
+    {
+      "id": 3,
+      "status": "pending",
+      "human_gate": "not_required",
+      "completed": ""
+    },
+    {
+      "id": 4,
+      "status": "pending",
+      "human_gate": "not_required",
+      "completed": ""
+    },
+    {
+      "id": 5,
+      "status": "pending",
+      "human_gate": "pending",
+      "completed": ""
+    },
+    {
+      "id": 6,
+      "status": "pending",
+      "human_gate": "not_required",
+      "completed": ""
+    },
+    {
+      "id": 7,
+      "status": "pending",
+      "human_gate": "not_required",
+      "completed": ""
+    },
+    {
+      "id": 8,
+      "status": "pending",
+      "human_gate": "not_required",
+      "completed": ""
+    }
+  ],
+  "open_questions": [],
+  "decisions": [],
+  "next_actions": [
+    "Заполнить 00-project-brief.md"
+  ],
+  "waiting_for_human": "подтвердить постановку",
+  "updated": ""
+}

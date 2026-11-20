@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "project": "demo/megafon-plus",
+  "request": "МегаФон Плюс как-то существует, но непонятно, развивать подписку, менять её или закрывать направление. Нужно решение, которое можно защитить.",
+  "current_stage": 8,
+  "stages": [
+    {"id": 1, "status": "done", "human_gate": "confirmed", "completed": "2026-11-20"},
+    {"id": 2, "status": "done", "human_gate": "not_required", "completed": "2026-11-20"},
+    {"id": 3, "status": "done", "human_gate": "not_required", "completed": "2026-11-20"},
+    {"id": 4, "status": "done", "human_gate": "not_required", "completed": "2026-11-20"},
+    {"id": 5, "status": "done", "human_gate": "confirmed", "completed": "2026-11-20"},
+    {"id": 6, "status": "done", "human_gate": "not_required", "completed": "2026-11-20"},
+    {"id": 7, "status": "done", "human_gate": "not_required", "completed": "2026-11-20"},
+    {"id": 8, "status": "done", "human_gate": "not_required", "completed": "2026-11-20"}
+  ],
+  "open_questions": [
+    {"id": "Q1", "text": "Можно ли сегодня подключить МегаФон Плюс новому человеку и какой состав виден на экране?"},
+    {"id": "Q2", "text": "Какая доля выручки уходит партнёрам по действующему договору?"},
+    {"id": "Q3", "text": "Какая сейчас доля группы МегаФона в Start?"}
+  ],
+  "decisions": [
+    {
+      "id": "DEC-001",
+      "status": "confirmed",
+      "date": "2026-11-20",
+      "summary": "Сократить внешнее обещание и не привлекать новых людей, пока не проверены продажи, состав и цена. Действующие периоды не обрывать. Актив Start не трогать.",
+      "by": "агент рекомендовал вариант существенного сокращения",
+      "confirmed_by": "учебное подтверждение руководителя продукта для демонстрации закрытого контура",
+      "review_trigger": "Пробное подключение показывает читаемый состав, либо компания раскрывает партнёрскую долю, либо замер показывает использование двух и более сервисов у большинства платящих.",
+      "evidence": ["E002", "E005", "E006", "E019", "E027", "E029", "E030", "E031", "E032"],
+      "record": "05-decision-record.md"
+    }
+  ],
+  "next_actions": [
+    "При новых сведениях запустить scripts/decision_trace.py --impact по затронутым id и не переписывать исследование целиком."
+  ],
+  "waiting_for_human": null,
+  "updated": "2026-11-20T21:45:00+03:00"
+}

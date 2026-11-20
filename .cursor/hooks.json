@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "cmd /c .cursor/hooks/session_start.cmd",
+        "timeout": 15
+      }
+    ]
+  }
+}
